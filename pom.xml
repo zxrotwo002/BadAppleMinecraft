@@ -23,8 +23,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>14</source>
+          <target>14</target>
         </configuration>
       </plugin>
       <plugin>
@@ -44,7 +44,7 @@
     <resources>
       <resource>
         <directory>src/main/resources</directory>
-        <filtering>true</filtering>
+        <filtering>false</filtering>
       </resource>
     </resources>
   </build>

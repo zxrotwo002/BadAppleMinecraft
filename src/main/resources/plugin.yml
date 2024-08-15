@@ -1,7 +1,12 @@
 name: BadAppleNew
 version: '${project.version}'
+author: Leo
 main: com.leohabrom.minecraft.plugins.badapplenew.BadAppleNew
 api-version: '1.21'
 commands:
   start:
     description: start video
+  cancel:
+    description: stop video
+  color:
+    description: 2 args change color
