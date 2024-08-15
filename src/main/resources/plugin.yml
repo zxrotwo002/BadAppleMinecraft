@@ -1,0 +1,4 @@
+name: BadAppleNew
+version: '${project.version}'
+main: com.leohabrom.minecraft.plugins.badapplenew.BadAppleNew
+api-version: '1.21'
